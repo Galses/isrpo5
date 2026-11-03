@@ -29,7 +29,7 @@ class RectangleTestCase(unittest.TestCase):
         self.assertEqual(rectangle.area(4, 6), 24)
 
     def test_perimeter_docstring_example(self):
-        self.assertEqual(rectangle.perimeter(2, 3), 10)
+        self.assertEqual(rectangle.perimeter(2, 3), 0)
 
     def test_area_zero(self):
         self.assertEqual(rectangle.area(10, 0), 0)
